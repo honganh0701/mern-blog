@@ -26,7 +26,3 @@ const User = mongoose.model('User', userSchema);
 export default User;
 
 
-app.get('/test', (req, res) => {
-    res.json({message: 'API is working!'});
-}
-);
